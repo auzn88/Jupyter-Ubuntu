@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Jupyter-Notebook
+Comment=Launch Jupyter Notebook
+GenericName=Jupyter
+Exec=bash -c ". /opt/anaconda3/etc/profile.d/conda.sh && /opt/anaconda3/bin/jupyter-notebook"
+Icon=/opt/anaconda3/lib/python3.7/site-packages/anaconda_navigator/static/images/jupyter-icon-1024x1024.png
+Terminal=false
+StartupNotify=true
+X-Desktop-File-Install-Version=0.23
